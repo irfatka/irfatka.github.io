@@ -1,0 +1,113 @@
+.head_img{
+  position: fixed;
+  z-index: 2;
+}
+
+.navid{
+  margin-right: 5px;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background: white ;
+  font-size: 20px;
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.navid a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration-color: white;
+  font-size: 17px;
+}
+
+.navid a:hover {
+  color: red;
+  
+}
+
+.navid a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#head{
+	background-image: url(heart_in_hand_by_kittykitty_bangbang2.jpg);
+    padding: 20px; 
+    width: 95%;
+    height: 300px;
+    background-size: 100%;
+}
+#head1{
+		color: red;
+}
+
+
+#left{
+
+	float: left;
+	width: 33.33%;
+	height: 300px;
+	justify-content: center;
+
+}
+
+#center{
+	float: center;
+	width: 33.33%;
+	height: 300px;
+	display: inline-block;
+	justify-content: center;
+}
+
+#right{
+	float: right;
+	width: 33.33%;
+	height: 300px;
+	justify-content: center;
+}
+
+
+#before{
+	width: 100%;
+	height: 650px;
+	
+}
+
+#during{
+	width: 100%;
+	height: 750px;
+	
+}
+
+
+#after{
+	width: 100%;
+	height: 650px;
+	
+}
+
+#align{
+	text-align: center;
+}
+
+#contact {
+   font-size: 20px;
+   width: 100%;
+   background-color: lightgrey;
+   color: black;
+   text-align: center;
+   display:inline-block;
+   margin-top: 5px;
+   padding:0px;
+   margin:0px;
+
+}
